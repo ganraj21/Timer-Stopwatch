@@ -1,11 +1,5 @@
 .app-container {
-  background: rgb(128, 255, 108);
-  background: linear-gradient(
-    90deg,
-    rgba(128, 255, 108, 0.7848389355742297) 1%,
-    rgba(175, 238, 100, 1) 35%,
-    rgba(108, 255, 117, 0.8660714285714286) 62%
-  );
+  background: #c9ff8c;
   height: 100vh;
 }
 
@@ -30,6 +24,7 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  box-shadow: 0px 0px 20px rgb(73 73 73 / 16%);
 }
 
 .stopwatch {
