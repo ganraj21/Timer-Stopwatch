@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import "aos/dist/aos.css";
 import "./Stopwatch.css";
 
 class Stopwatch extends Component {
@@ -60,9 +60,17 @@ class Stopwatch extends Component {
     return (
       <div className="app-container">
         <div className="stopwatch-container">
-          <div className="container">
+          <div
+            className="container"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
             <h1 className="stopwatch">Stopwatch</h1>
-            <div className="timer-container">
+            <div
+              className="timer-container"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <h1 className="stopwatch-timer">{time}</h1>
               <div className="timer-buttons">
                 <button
