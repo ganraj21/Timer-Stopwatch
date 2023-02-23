@@ -1,5 +1,5 @@
 .app-container {
- background: #227c96;
+  background: #227c96;
   height: 100vh;
 }
 
@@ -88,17 +88,17 @@
 }
 
 .start-button {
-  background-color: #1db05f;
+  background-color: #009f05;
   margin-right: 24px;
 }
 
 .stop-button {
-  background-color: #ef0d36;
+  background-color: #e30000;
   margin-right: 24px;
 }
 
 .reset-button {
-  background-color: #eaa800;
+  background-color: #eba900;
 }
 @media screen and (min-width: 992px) {
   .stopwatch {
